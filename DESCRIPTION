@@ -1,0 +1,21 @@
+Package: dieroller
+Type: Package
+Title: die roller
+Version: 0.1.0
+Author: Qinyi Yang
+Description: Provides functions to simulate tossing a die multiple times.
+Depends:
+    R (>= 3.1.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Collate:
+    die.R
+    roll.R
+    plot-roll.R
+    other-roll-methods.R
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
